@@ -80,6 +80,20 @@ export const cpuData: CPU[] = [
     category: 'server'
   },
   {
+    id: 'epyc-4564p',
+    manufacturer: 'AMD',
+    model: 'EPYC 4564P',
+    baseClock: '4.50 GHz',
+    maxBoostClock: '5.70 GHz',
+    cores: 16,
+    threads: 32,
+    tdp: '170W',
+    numaNodes: 1,
+    avgTemp: '',
+    recommended: true,
+    category: 'server'
+  },
+  {
     id: 'ryzen-7950x',
     manufacturer: 'AMD',
     model: 'Ryzen 9 7950X',
@@ -194,6 +208,21 @@ export const storageData: Storage[] = [
     category: 'enterprise',
     generation: 'gen4',
     notes: 'Pretty good performance and stable under load'
+  },
+  {
+    id: 'kioxia-cm7-v-sed',
+    manufacturer: 'Kioxia',
+    model: 'CM7-V SED',
+    interface: 'PCIe 5.0, NVMe 2.0',
+    capacity: '3.2TB',
+    sequentialRead: '14,000 MB/s',
+    sequentialWrite: '6,750 MB/s',
+    randomRead: '2,700K IOPS',
+    randomWrite: '600K IOPS',
+    recommended: true,
+    category: 'enterprise',
+    generation: 'gen5',
+    notes: ''
   },
   {
     id: 'micron-7450',
